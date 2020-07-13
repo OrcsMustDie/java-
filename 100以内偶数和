@@ -1,0 +1,19 @@
+public class yibaiyinei{
+	public static void main(String[] args){
+		//求100以内的偶数和
+		
+		int i=1;
+		int sum= 0;
+		
+		while(i<=100){
+			if( i%2 ==0){
+				sum= sum+i;
+			   
+			}
+			 i++; //注意这个i++ 是在前面 条件判断外面的
+			
+		}
+		System.out.print("100内的偶数和是："+ sum);
+	}
+	
+}
